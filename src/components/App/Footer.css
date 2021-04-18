@@ -1,0 +1,49 @@
+
+
+
+.footerPayPal{
+    width: 60%;
+    float: left;
+    padding: 50px 20%;
+    position: relative;
+}
+
+.footerPayPal > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footerPayPal .above::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0,0,0,0.15);
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.footerPayPal .boldOptions{
+    width: 50%;
+}
+
+.footerPayPal .options1{
+    width: 54%;
+}
+
+.footerPayPal .options2{
+    width: 34%;
+}
+
+.footerPayPal .boldOptions,
+.footerPayPal .options1,
+.footerPayPal .options2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+

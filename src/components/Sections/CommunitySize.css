@@ -1,0 +1,17 @@
+
+
+.cmtySize .numCmty{
+    font-size: 42px;
+    padding: 4px 18px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    float: left;
+    margin: 3px;
+    user-select: none;
+}
+
+.cmtySize{
+    margin-top: 50px;
+}

@@ -1,0 +1,17 @@
+
+
+
+.linkButton{
+    font-size: 13px;
+    font-weight: 600;
+    color: #687173;
+    cursor: pointer;
+}
+
+.linkButton:hover{
+    text-decoration: underline;
+}
+
+.boldLinkButton{
+    color: black;
+}

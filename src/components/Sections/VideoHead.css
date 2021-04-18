@@ -1,0 +1,19 @@
+
+
+
+
+.secVidHead{
+    width: 100%;
+    height: 350px;
+    background-color: #31A6E4;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.fillWidth{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+}

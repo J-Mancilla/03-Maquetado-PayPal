@@ -1,8 +1,8 @@
+
 body {
+  @import url(//db.onlinewebfonts.com/c/44994582bcefd02119158ff8b0d16b75?family=PayPal+Sans+Big);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "PayPal Sans Big"; src: url("//db.onlinewebfonts.com/t/44994582bcefd02119158ff8b0d16b75.eot"); src: url("//db.onlinewebfonts.com/t/44994582bcefd02119158ff8b0d16b75.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/44994582bcefd02119158ff8b0d16b75.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/44994582bcefd02119158ff8b0d16b75.woff") format("woff"), url("//db.onlinewebfonts.com/t/44994582bcefd02119158ff8b0d16b75.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/44994582bcefd02119158ff8b0d16b75.svg#PayPal Sans Big") format("svg");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button{
+  font-family: "PayPal Sans Big";
+  cursor: pointer;
 }

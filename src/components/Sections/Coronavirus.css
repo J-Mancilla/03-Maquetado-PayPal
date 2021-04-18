@@ -1,0 +1,23 @@
+
+
+
+.coronavirusSec{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEF2DC;
+    padding: 28px 0px ;
+    border: 1px solid #DDDDDD;
+}
+
+.coronavirusSec h4{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.coronavirusSec p{
+    margin: 0;
+}

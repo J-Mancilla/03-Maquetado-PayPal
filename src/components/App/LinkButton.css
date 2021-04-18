@@ -1,0 +1,26 @@
+
+
+
+.linkButtonHeader{
+    width: 135px;
+    height: 80px;
+    float: left;
+    user-select: none;
+    color: white;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.linkButtonHeader:hover::after{
+    content: "";
+    width: 135px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
